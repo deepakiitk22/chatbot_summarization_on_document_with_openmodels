@@ -4,9 +4,7 @@ import streamlit as st
 import PyPDF2
 from io import StringIO
 
-
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
-
 
 # Function to handle Summarization
 def handle_summarization(text=None):
